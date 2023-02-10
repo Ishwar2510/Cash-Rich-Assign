@@ -1,0 +1,35 @@
+.TilesContainer{
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:black;
+    justify-content: space-evenly;
+
+}
+h6{
+    color: grey;
+}
+.inner h5{
+    background-color: grey;
+   padding: 0.5px 20px;
+   border-radius: 10px;
+   cursor: pointer;
+   
+}
+.inner h3 {
+    color:yellow;
+   
+}
+.innermost{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
